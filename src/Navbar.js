@@ -8,13 +8,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ paddingLeft: '5px', paddingRight: '5px' }}>
-      <a className="navbar-brand" href="/">Navbar</a>
+      <a className="navbar-brand" href="/">ReactApp</a>
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <a className="nav-link" href="/home">Home</a>
+          <a className="nav-link" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/about">About</a>
+          <a className="nav-link" href="/card">Card</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/contact">Contact</a>
